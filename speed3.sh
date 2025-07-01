@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "exit"
-exit 1
-
 is_root() {
     [ "$(id -u)" -eq 0 ]
 }
